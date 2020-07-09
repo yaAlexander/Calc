@@ -6,19 +6,19 @@ import java.util.Scanner;
 public class Calc {
 
 
-    public Object Addition(Object one, Object two) {
+    public Object addition(Object one, Object two) {
         double result = (Double) one + (Double) two;
         return result;
     }
-    public Object Subtraction(Object one, Object two) {
+    public Object subtraction(Object one, Object two) {
         double result = (Double) one - (Double) two;
         return result;
     }
-    public Object Multiplication(Object one, Object two) {
+    public Object multiplication(Object one, Object two) {
         double result = (Double) one * (Double) two;
         return result;
     }
-    public Object Division(Object one, Object two) {
+    public Object division(Object one, Object two) {
         double result = (Double) one / (Double) two;
         return result;
     }
