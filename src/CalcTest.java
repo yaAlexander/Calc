@@ -26,7 +26,7 @@ public class CalcTest {
         return new Object[][]{
                 {5.0, 2.0, 2.0},
                 {0.0, -1.0, -1.0},
-                {100.0, 0.0, 0.0},
+                {100.0, 3.0, 0.0},
                 {Double.MAX_VALUE, 32698.0, -1.0}
         };
     }
