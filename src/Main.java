@@ -13,10 +13,18 @@ public class Main {
         double number2 = scanner.nextDouble();
         double result = 0;
         switch (sign) {
-            case '+' : result = number1 + number2; break;
-            case '-' : result = number1 - number2; break;
-            case '*' : result = number1 * number2; break;
-            case '/' : result = number1 / number2; break;
+            case '+':
+                result = (double) calc.addition(number1, number2);
+                break;
+            case '-':
+                result = (double) calc.subtraction(number1, number2);
+                break;
+            case '*':
+                result = (double) calc.multiplication(number1, number2);
+                break;
+            case '/':
+                result = (double) calc.division(number1, number2);
+                break;
         }
         System.out.print("Результат выражения: ");
         System.out.print(number1 + " " + sign + " " + number2 + " " + '=' + " " + result);
